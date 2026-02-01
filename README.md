@@ -5,7 +5,9 @@ A terminal-based interface for viewing and managing Markdown task lists.
 ## Installation
 
 ```bash
-pip install task-tui
+git clone https://github.com/TomCallan/task-tui.git
+cd task-tui
+pip install -e .
 ```
 
 ## Usage
