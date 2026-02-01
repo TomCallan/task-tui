@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "task-tui"
+version = "0.1.0"
+description = "A Textual-based TUI for managing Markdown task lists"
+readme = "README.md"
+authors = [
+  { name = "User", email = "user@example.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "textual",
+]
+
+[project.scripts]
+task-tui = "task_tui:main"
+
+[project.urls]
+"Homepage" = "https://github.com/user/task-tui"
+"Bug Tracker" = "https://github.com/user/task-tui/issues"
